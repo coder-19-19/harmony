@@ -1,0 +1,28 @@
+.error{
+    background-color: darkred;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+}
+.success{
+    background-color:green;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+}
+@media screen and (max-width:768px) {
+   .lt{
+       font-size: 12px;
+   }
+}
+.vacancy-header{
+    padding: 10px;
+    display: inline-block;
+    color: #262d33;
+    border-top: 3px solid #262d33;
+    border-bottom: 3px solid #262d33;
+    letter-spacing: 3px;
+    
+}

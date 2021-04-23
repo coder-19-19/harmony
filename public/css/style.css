@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #DAE0E6;
+}
+.libre{
+  font-family: 'Libre Baskerville',sans-serif !important;
+}
+.noto{
+  font-family: 'Noto Sans SC',sans-serif !important;
+}
+button,a.btn,.tab{
+  font-size: 1.1rem !important;
+  text-transform: lowercase !important;
+  text-transform: capitalize !important ;
+}
+label{
+  font-size: 1.3rem !important;
+}
+.center-preloader{
+    position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+main {
+    flex: 1 0 auto;
+}
+#logo{
+    height: 53px;
+    margin:5px;
+}
+.d-none{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #F7941D;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F7941D;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #F7941D;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.harmony{
+    color: transparent;
+    font-size: 70px;
+    -webkit-text-stroke: 3px #03A9F4;
+    text-align: center;
+}
+.colleges{
+    -webkit-text-stroke: 3px #F7941D ;
+}
+.grey{
+    background: #262d33 !important;
+}
+.hide-on-med-and-down  .active{
+  background-color: #F7941D !important;
+}
+.container{
+  width: 93% !important;
+}
+.select-dropdown {
+  color:#F7941D;
+  font-size: 1.3rem !important;
+  font-family: 'Noto Sans SC',sans-serif !important;
+}
+
+.navLi a{
+  color:black !important;
+}
+
+.navLi:hover{
+  background-color:#DAE0E6;
+}
+.active  a{
+  color:white !important;
+}
+#sendAppeal{
+  background-color: #03A9F4  !important;
+}
+.footer-social:hover{
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.footer-link{
+  font-size: 17px;
+}
+.footer-link:hover{
+  color:#03A9F4 !important;
+  transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  -o-transition: 100ms;
+}
+.footer-phone {
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.footer-phone:hover {
+  color: #03A9F4;
+}
+.footer-phone i {
+  font-size: 22px;
+}
+.footer-contact{
+  margin-top: 6px;
+  background-color: #19b856 !important;
+}
+.footer-title{
+  font-size: 25px;
+}
+@media screen and (max-width:990px) {
+  #logo{
+    margin: 0;
+  }
+}

@@ -1,0 +1,148 @@
+.card-title{
+  font-weight: bold !important;
+}
+.card-image{
+  height:60vh;
+}
+.card {
+  height: 100%;
+}
+.service-header{
+  padding: 10px;
+  display: inline-block;
+  color: rgb(129, 129, 129);
+  border-top: 3px solid #03A9F4;
+  border-bottom: 3px solid #F7941D;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+/*start silder*/
+.swiper-container {
+  width: 70%;
+  height: 50%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*end slider*/
+.box-{
+  text-align: center;
+}
+.header {
+  display: inline-block;
+  color: #262d33 ;
+  border-bottom: 3px solid #262d33 ;
+  border-top: 3px solid #262d33 ;
+  padding: 30px;
+  font-size: 1.5rem;
+  
+}
+.advantages{
+  border: 3px solid #262d33;
+  background-color: #262d33;
+  display: flex;
+}
+.advantages ul{
+  width: 100%;
+}
+.advantage:nth-child(even){
+  background-color: #22272c;
+}
+
+.advantage {
+  display: flex;
+  height: 15vh;
+  width: 100%;
+  text-align: center;
+}
+.advantage div p{
+  font-size: 20px;
+  margin-top: 34px;
+}
+.icon{
+  width: 54px;
+  height: 54px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.advantage-image {
+  width: 48%;
+  height: auto;
+}
+.components{
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  align-items: center;
+  color: #F7941D;
+  border-radius: 9px;
+  margin: 40px 0 20px 0;
+  padding: 30px 20px;
+  font-weight: bold;
+  font-size: 21px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+.component{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding-top: 40px;
+}
+.component span{
+  font-size: 3rem;
+
+}
+
+@media screen and  (max-width:500px) {
+    .advantages{
+      display: block;
+    }
+    .advantage div p{
+      font-size: 18px;
+    }
+    .advantage-image{
+      width: 100%;
+    }
+
+    .component{
+      padding-top: 20px;
+      width: 102px;
+      height: 102px;
+      font-size: 16px;
+    }
+    .component span{
+      font-size: 20px;
+    }
+    .card-image{
+      height: 400px;
+  }
+}
+
+
+
+

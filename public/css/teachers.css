@@ -1,0 +1,16 @@
+.card-image{
+    height:60vh;
+}
+.card {
+    height: 100%;
+}
+.card-title{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+@media screen and (max-width:500px) {
+    .card-image{
+        height: 400px;
+    }
+}
+
