@@ -8,7 +8,7 @@
         'db' => [
             'host' => 'localhost',
             'username' => 'root',
-            'password' => 'salamsalam1',
+            'password' => 'sene-ne?',
             'name' => 'harmony'
         ]
     ];
